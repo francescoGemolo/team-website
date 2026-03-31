@@ -1,3 +1,10 @@
-.about-title{
-    color: rgb(8, 80, 8);
+
+.about-body-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.about-main-container{
+    width: 80%;
+    
 }

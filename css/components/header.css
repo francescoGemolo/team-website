@@ -1,0 +1,31 @@
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+}
+
+.nav-header-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+}
+
+.nav-header-container a{
+    color: var(--color-white);
+}
+
+.header-nav-home{
+    font-weight: 700;
+}
+
+.header-nav-link{
+    display: flex;
+    gap: 1rem;
+}
+
+.header-nav-link a{
+    font-size: 0.8rem;
+}
