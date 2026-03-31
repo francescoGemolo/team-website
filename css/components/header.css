@@ -9,7 +9,6 @@
 
 .header-logo {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 0.875rem;
 }
@@ -19,25 +18,21 @@
     width: auto;
 }
 
-.header-logo p {
+.header-logo span {
     color: var(--color-white);
-    font-size: 1.5rem;
-}
-
-.nav {
-    display: flex;
+    font-size: var(--logo-size);
+    font-weight: 700;
 }
 
 .nav-items {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 1.5rem;
 }
 
 .nav-items a {
-    font-size: 1.125rem;
-    color: var(--color-white);
+    font-size: var(--hero-secondary);
+    color: var(--color-grey);
     padding: 0.5rem 0.875rem;
     border-radius: 0.5rem;
     transition: 0.15s ease-in-out;
@@ -45,5 +40,5 @@
 
 .nav-items a:hover {
     background-color: #304b7750;
-    transform: translateY(-0.125rem);
+    color: var(--color-white);
 }

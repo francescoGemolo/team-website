@@ -1,3 +1,8 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .hero-wrapper {
     background: var(--color-dark);
     font-family: var(--font-sans);
@@ -8,7 +13,7 @@
 
 .hero-section {
     width: 100%;
-    padding: 5rem 6rem;
+    padding: 5rem 8rem;
     font-size: 0;
 }
 
@@ -73,7 +78,7 @@
     justify-content: center;
     background-color: var(--color-grey);
     min-height: 60vh;
-    padding: 5rem 12rem;
+    padding: 5rem 8rem;
 }
 
 .banner-quote {
@@ -96,7 +101,7 @@
     border-radius: 1rem;
     min-height: 30vh;
     padding: 1rem 4rem;
-    margin: 5rem 10rem;
+    margin: 4rem 16rem;
 }
 
 .cta-text {
