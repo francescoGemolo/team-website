@@ -38,4 +38,12 @@
 .nav-items a {
     font-size: 1.125rem;
     color: var(--color-white);
+    padding: 0.5rem 0.875rem;
+    border-radius: 0.5rem;
+    transition: 0.15s ease-in-out;
+}
+
+.nav-items a:hover {
+    background-color: #304b7750;
+    transform: translateY(-0.125rem);
 }
