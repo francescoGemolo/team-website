@@ -18,7 +18,6 @@
     --quote-text: 2.25rem;
 
     /* Fonts */
-    --font-sans: 'Inter', system-ui, sans-serif;
     --font-roboto: 'Roboto', system-ui, sans-serif;
     --font-mono: 'Roboto Mono', Consolas, monospace;
 }
