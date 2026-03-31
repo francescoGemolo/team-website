@@ -95,6 +95,7 @@
     padding: 1.5rem;
     border: 1px solid var(--color-accent);
     transition: transform 0.15s ease, box-shadow 0.3s ease;
+    gap: 1rem;
 }
 
 .card:hover {
@@ -106,6 +107,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.card-logo {
+    border: 1px solid var(--color-grey);
+    border-radius: 555px;
+    padding: 0.5rem;
 }
 
 .card-logo img {
