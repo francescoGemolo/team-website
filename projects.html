@@ -29,6 +29,19 @@
     <!-- Reset + Vars -->
     <link rel="stylesheet" href="css/base.css" />
 
+    <link rel="icon" href="assets/logos/logo.svg" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css" />
+
+    <link rel="stylesheet" href="css/base.css" />
+
     <!-- Components -->
     <link rel="stylesheet" href="css/components/header.css" />
     <link rel="stylesheet" href="css/components/card.css" />
@@ -38,19 +51,38 @@
     <link rel="stylesheet" href="css/pages/projects.css" />
 
     <!-- General Style -->
+
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/pages/projects.css" />
+    <link rel="stylesheet" href="css/components/header.css" />
+    <link rel="stylesheet" href="css/components/footer.css" />
   </head>
 
   <body>
+    <header class="header">
+      <a href="index.html" class="header-logo">
+        <img src="assets/logos/logo.svg" alt="Alex Mercer's Logo" />
+        <span>Alex Mercer</span>
+      </a>
+      <nav class="nav">
+        <ul class="nav-items">
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <main class="projects-page">
       <section class="projects-hero">
-        <h2 class="proj-hero-subtitle">PORTFOLIO</h2>
-        <h1 class="proj-hero-title">Selected work.</h1>
-        <p class="proj-hero-description">
-          A few projects that show how I approach design, always with the
-          client's goals in mind.
-        </p>
+        <div class="text-wrapper">
+          <h2 class="proj-hero-subtitle">PORTFOLIO</h2>
+          <h1 class="proj-hero-title">Selected work.</h1>
+          <p class="proj-hero-desc">
+            A few projects that show how I approach design, always with the
+            client's goals in mind.
+          </p>
+        </div>
       </section>
 
       <section class="projects-grid">
