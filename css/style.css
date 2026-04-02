@@ -95,7 +95,7 @@
     padding: 1.5rem;
     border: 1px solid var(--color-accent);
     transition: transform 0.15s ease, box-shadow 0.3s ease;
-    gap: 0.5rem;
+    gap: 0.875rem;
 }
 
 .card:hover {
@@ -215,8 +215,8 @@
 
 .quote-author {
     align-self: flex-end;
-    font-weight: 700;
-    font-size: var(--information-header);
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 .cta-section {
@@ -249,7 +249,7 @@
     display: inline-flex;
     font-size: var(--hero-secondary);
     border-radius: 0.5rem;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 2rem;
     cursor: pointer;
     color: var(--color-white);
     border: 1px solid var(--color-white);
@@ -270,6 +270,7 @@
     flex-direction: column;
 }
 
+/* About, by Daniele */
 .about-section1 {
     width: 100%;
     display: flex;
@@ -455,10 +456,11 @@
 .about-section5-content a {
     display: inline-flex;
     font-size: var(--hero-secondary);
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
     color: var(--color-white);
     border: 1px solid var(--color-white);
-    border-radius: 0.5rem;
-    padding: 0.5rem 1.5rem;
     transition: background-color .15s ease-in-out,
         color .15s ease-in-out,
         transform .15s ease-in-out;
