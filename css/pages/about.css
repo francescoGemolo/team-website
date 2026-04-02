@@ -7,7 +7,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 
 .about-section1 {
@@ -16,11 +15,10 @@
     justify-content: center;
     background-color: var(--color-dark);
     color: var(--color-white);
+    padding: 2rem 8rem;
 }
 
 .about-section1-content {
-    width: 70%;
-    padding: 2rem;
     display: flex;
     align-items: center;
     gap: 2.5rem;
@@ -55,7 +53,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: var(--color-darkest);
+    background-color: #0f172b;
     color: var(--color-white);
 }
 
