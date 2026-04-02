@@ -100,7 +100,7 @@
 
 .card:hover {
     transform: translateY(-0.125rem);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.04);
 }
 
 .card-header {
@@ -155,7 +155,7 @@
     gap: 0.5rem;
 }
 
-.card-labels span {
+.card-labels li {
     font-size: 0.75rem;
     background: #f1f1f1;
     padding: 0.25rem 0.5rem;
@@ -205,6 +205,11 @@
     background-color: var(--color-grey);
     min-height: 60vh;
     padding: 5rem 8rem;
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
 }
 
 .banner-quote {
