@@ -31,23 +31,23 @@
     border-radius: 100%;
 }
 
-.section1-info{
+.about-section1-info{
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.section1-info span{
+.about-section1-info span{
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--color-accent);
 }
 
-.section1-info h1{
+.about-section1-info h1{
     font-weight: 600;
 }
 
-.section1-info p{
+.about-section1-info p{
     font-size: 1.2rem;
     font-weight: 300;
 }
@@ -182,3 +182,16 @@
     padding: 1rem 1.6rem;
 }
 
+@media (max-width: 767px){
+
+    .about-section1-content{
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .about-section1-info{
+        gap: 0.5rem;
+    }
+}
