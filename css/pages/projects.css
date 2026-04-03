@@ -93,3 +93,15 @@
   font-size: 20px;
   font-weight: normal;
 }
+
+@media screen and (max-width: 1000px) {
+  .proj-card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .proj-card {
+    width: 80%;
+  }
+}
