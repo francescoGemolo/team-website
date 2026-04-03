@@ -29,7 +29,6 @@
 
     <!-- Components -->
     <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/card.css">
     <link rel="stylesheet" href="css/components/footer.css">
 
     <!-- Page -->
@@ -41,7 +40,6 @@
 
 <body>
 
-    <!-- Header -->
     <header class="header">
         <a href="index.html" class="header-logo">
             <img src="assets/logos/logo.svg" alt="Alex Mercer's Logo">
@@ -56,22 +54,69 @@
         </nav>
     </header>
 
-    <!-- Main -->
+    <section class="contact-hero">
+        <h1>Let's work together.</h1>
+        <p>Have a project in mind? Tell me about it. I'll get back to you within 48 hours.</p>
+    </section>
+
+
     <main class="contact-main">
-        <!-- Left -->
         <section class="contact-left">
-            <form action="#" class="form">
-                <fieldset>
-                    <legend>Contact Form</legend>
+            <form action="#" class="contact-form" novalidate>
+
+                <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="text" id="name">
-                </fieldset>
+                    <input type="text" id="name" name="name" autocomplete="name" placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" autocomplete="email" placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label for="company">Company</label>
+                    <input type="text" id="company" name="company" autocomplete="organization" placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder=""></textarea>
+                </div>
+
+                <button type="submit" class="btn-send">Send message</button>
+
             </form>
         </section>
-        <!-- Right -->
+
+        <aside class="contact-right">
+            <div class="info-block">
+                <span class="info-label">Email</span>
+                <span class="info-value">
+                    <a href="mailto:hello@alexmercer.design">hello@alexmercer.design</a>
+                </span>
+            </div>
+
+            <div class="info-block">
+                <span class="info-label">Based in</span>
+                <span class="info-value">Remote – worldwide</span>
+            </div>
+
+            <div class="info-block">
+                <span class="info-label">Response time</span>
+                <span class="info-value">Within 48 hours</span>
+            </div>
+
+            <div class="info-block">
+                <span class="info-label">Languages</span>
+                <span class="info-value">English, Spanish, Italian</span>
+            </div>
+
+            <span class="badge-available">Available for projects</span>
+        </aside>
+
     </main>
 
-    <!-- Footer -->
     <footer class="footer">
         <p>Copyright © Alex Mercer</p>
     </footer>
