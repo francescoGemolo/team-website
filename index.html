@@ -33,8 +33,8 @@
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/footer.css">
 
-    <!-- Page -->
-    <link rel="stylesheet" href="css/pages/home.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -47,183 +47,179 @@
         </a>
         <nav class="nav">
             <ul class="nav-items">
-                <li><a href="projects.html" aria-current="page">Projects</a></li>
+                <li><a href="projects.html">Projects</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero -->
-    <div class="hero-wrapper">
-        <section class="hero-section">
-            <div class="hero-copy">
-                <h1 class="hero-title">
-                    Designing webs<br>
-                    that mean business.
-                </h1>
-                <p class="hero-sub">Corporate web design for startups and B2B companies that need to make an
-                    impression.
+    <main>
+        <!-- Hero -->
+        <section class="hero-wrapper">
+            <section class="hero-section">
+                <div class="hero-copy">
+                    <h1 class="hero-title">
+                        Designing webs<br>that mean business.
+                    </h1>
+                    <p class="hero-sub">Corporate web design for startups and B2B companies that need to make an
+                        impression.</p>
+                    <a href="projects.html" class="btn hero-btn">View my work</a>
+                </div>
+                <div class="hero-visual">
+                    <img class="hero-img" src="https://placehold.net/600x400.png"
+                        alt="Alex Mercer working at dual monitors">
+                </div>
+            </section>
+        </section>
+
+        <!-- Cards -->
+        <section class="tools-wrapper">
+            <h2 class="tools-title">Here's my favourite Tools!</h2>
+
+            <section class="card-section">
+                <!-- Card - 1 -->
+                <article class="card">
+                    <header class="card-header">
+                        <div class="card-logo">
+                            <img src="assets/logos/dribbble.svg" alt="Dribbble Logo">
+                        </div>
+                        <div class="card-badge free">
+                            <p>Free</p>
+                        </div>
+                    </header>
+                    <div class="card-content">
+                        <h3>Dribbble</h3>
+                        <p>Design Inspiration</p>
+                        <ul class="card-labels">
+                            <li>Design</li>
+                            <li>UI</li>
+                            <li>Inspiration</li>
+                        </ul>
+                    </div>
+                    <footer class="card-footer">
+                        <div class="card-time">
+                            <p>2023-2026</p>
+                            <span>In use</span>
+                        </div>
+                        <a href="https://dribbble.com/" class="btn card-btn">See tool</a>
+                    </footer>
+                </article>
+                <!-- Card - 2 -->
+                <article class="card">
+                    <header class="card-header">
+                        <div class="card-logo">
+                            <img src="assets/logos/figma.svg" alt="Figma Logo">
+                        </div>
+                        <div class="card-badge paid">
+                            <p>Paid</p>
+                        </div>
+                    </header>
+                    <div class="card-content">
+                        <h3>Figma</h3>
+                        <p>UI/UX Design</p>
+                        <ul class="card-labels">
+                            <li>Vector</li>
+                            <li>UI</li>
+                            <li>Prototyping</li>
+                        </ul>
+                    </div>
+                    <footer class="card-footer">
+                        <div class="card-time">
+                            <p>2022-2026</p>
+                            <span>In use</span>
+                        </div>
+                        <a href="https://www.figma.com/" class="btn card-btn">See tool</a>
+                    </footer>
+                </article>
+                <!-- Card - 3 -->
+                <article class="card">
+                    <header class="card-header">
+                        <div class="card-logo">
+                            <img src="assets/logos/shadcn-ui.svg" alt="Shadcn/UI Logo">
+                        </div>
+                        <div class="card-badge free">
+                            <p>Free</p>
+                        </div>
+                    </header>
+                    <div class="card-content">
+                        <h3>Shadcn/UI</h3>
+                        <p>Components Library</p>
+                        <ul class="card-labels">
+                            <li>React</li>
+                            <li>Tailwind</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <footer class="card-footer">
+                        <div class="card-time">
+                            <p>2022-2026</p>
+                            <span>In use</span>
+                        </div>
+                        <a href="https://ui.shadcn.com/" class="btn card-btn">See tool</a>
+                    </footer>
+                </article>
+                <!-- Card - 4 -->
+                <article class="card">
+                    <header class="card-header">
+                        <div class="card-logo">
+                            <img src="assets/logos/claude-ai-icon.svg" alt="Claude Logo">
+                        </div>
+                        <div class="card-badge paid">
+                            <p>Paid</p>
+                        </div>
+                    </header>
+                    <div class="card-content">
+                        <h3>Claude</h3>
+                        <p>AI Assistant</p>
+                        <ul class="card-labels">
+                            <li>Code</li>
+                            <li>AI</li>
+                            <li>Inspiration</li>
+                        </ul>
+                    </div>
+                    <footer class="card-footer">
+                        <div class="card-time">
+                            <p>2022-2026</p>
+                            <span>In use</span>
+                        </div>
+                        <a href="https://claude.ai/" class="btn card-btn">See tool</a>
+                    </footer>
+                </article>
+            </section>
+
+        </section>
+
+        <!-- Banner -->
+        <section class="banner-section">
+            <blockquote>
+                <p class="banner-quote">“Good design is not just about how it looks, but about how it works and how it
+                    guides
+                    people. It should inspire action —
+                    and more importantly, actions that truly matter. Because if it doesn’t move people to do something
+                    meaningful, then it’s
+                    just decoration.”
                 </p>
-                <a href="projects.html" class="btn hero-btn">View my work</a>
+                <cite class="quote-author">~Alex Mercer</cite>
+            </blockquote>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section">
+            <div class="cta-text">
+                <h4>Call to action time!</h4>
+                <p>Sign up for our product by clicking that button right over there!</p>
             </div>
-            <!--  -->
-            <div class="hero-visual">
-                <img class="hero-img" src="https://placehold.net/600x400.png"
-                    alt="Alex Mercer working at dual monitors">
+            <div class="cta-btn-container">
+                <a href="contact.html" class="cta-btn">Sign up</a>
             </div>
         </section>
-    </div>
+    </main>
 
-    <!-- Cards -->
-    <div class="tools-wrapper">
-        <h2 class="tools-title">Here's my favourite Tools!</h2>
-        <section class="card-section">
-            <!-- Card -->
-            <div class="card">
-                <div class="card-header">
-                    <div class="card-logo">
-                        <img src="assets/logos/dribbble.svg" alt="Dribbble Logo">
-                    </div>
-                    <div class="card-badge free">
-                        <p>Free</p>
-                    </div>
-                </div>
-
-                <div class="card-content">
-                    <h3>Dribbble</h3>
-                    <p>Design Inspiration</p>
-
-                    <div class="card-labels">
-                        <span>Design</span>
-                        <span>UI</span>
-                        <span>Inspiration</span>
-                    </div>
-                </div>
-
-                <div class="card-footer">
-                    <div class="card-time">
-                        <p>2023-2026</p>
-                        <span>In use</span>
-                    </div>
-                    <a href="https://dribbble.com/" class="btn card-btn">See tool</a>
-                </div>
-            </div>
-            <!-- Card -->
-            <div class="card">
-                <div class="card-header">
-                    <div class="card-logo">
-                        <img src="assets/logos/figma.svg" alt="Figma Logo">
-                    </div>
-                    <div class="card-badge paid">
-                        <p>Paid</p>
-                    </div>
-                </div>
-
-                <div class="card-content">
-                    <h3>Figma</h3>
-                    <p>UI/UX Design</p>
-
-                    <div class="card-labels">
-                        <span>UI/UX</span>
-                        <span>Components</span>
-                        <span>Vector</span>
-                    </div>
-                </div>
-
-                <div class="card-footer">
-                    <div class="card-time">
-                        <p>2022-2026</p>
-                        <span>In use</span>
-                    </div>
-                    <a href="https://www.figma.com/" class="btn card-btn">See tool</a>
-                </div>
-            </div>
-            <!-- Card -->
-            <div class="card">
-                <div class="card-header">
-                    <div class="card-logo">
-                        <img src="assets/logos/shadcn-ui.svg" alt="Shadcn-UI Logo">
-                    </div>
-                    <div class="card-badge free">
-                        <p>Free</p>
-                    </div>
-                </div>
-
-                <div class="card-content">
-                    <h3>Shadcn-UI</h3>
-                    <p>Components Library</p>
-
-                    <div class="card-labels">
-                        <span>React</span>
-                        <span>Tailwind</span>
-                        <span>CSS</span>
-                    </div>
-                </div>
-
-                <div class="card-footer">
-                    <div class="card-time">
-                        <p>2022-2026</p>
-                        <span>In use</span>
-                    </div>
-                    <a href="https://ui.shadcn.com/" class="btn card-btn">See tool</a>
-                </div>
-            </div>
-            <!-- Card -->
-            <div class="card">
-                <div class="card-header">
-                    <div class="card-logo">
-                        <img src="assets/logos/claude-ai-icon.svg" alt="Claude AI Logo">
-                    </div>
-                    <div class="card-badge paid">
-                        <p>Paid</p>
-                    </div>
-                </div>
-
-                <div class="card-content">
-                    <h3>Claude</h3>
-                    <p>AI Assistant</p>
-
-                    <div class="card-labels">
-                        <span>AI</span>
-                        <span>Code</span>
-                        <span>Inspiration</span>
-                    </div>
-                </div>
-
-                <div class="card-footer">
-                    <div class="card-time">
-                        <p>2022-2026</p>
-                        <span>In use</span>
-                    </div>
-                    <a href="https://claude.ai/" class="btn card-btn">See tool</a>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <!-- Banner -->
-    <section class="banner-section">
-        <p class="banner-quote">“Good design is not just about how it looks, but about how it works and how it
-            guides
-            people. It should inspire action —
-            and more importantly, actions that truly matter. Because if it doesn’t move people to do something
-            meaningful, then it’s
-            just decoration.”
-        </p>
-        <p class="quote-author">~Alex Mercer</p>
-    </section>
-
-    <!-- CTA -->
-    <section class="cta-section">
-        <div class="cta-text">
-            <h4>Call to action time!</h4>
-            <p>Sign up for our product by clicking that button right over there!</p>
-        </div>
-        <div class="cta-btn-container">
-            <a href="contact.html" class="cta-btn">Sign up</a>
-        </div>
-    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Copyright © Alex Mercer</p>
+    </footer>
 
 </body>
 
