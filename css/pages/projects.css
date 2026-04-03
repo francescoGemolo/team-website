@@ -31,8 +31,14 @@
   font-size: 18px;
 }
 
+.projects-section {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
 .proj-card {
-  flex: 1 1 calc(50% - 24px);
+  /* flex: 1 1 calc(50% - 24px);
   max-width: calc(50% - 24px);
   font-family: var(--font-roboto);
   border: solid var(--color-dark);
@@ -40,7 +46,15 @@
   border-width: 2px;
   overflow: hidden;
   width: 800px;
-  height: 670px;
+  height: 670px; */
+
+  width: 20%;
+  font-family: var(--font-roboto);
+  border: solid var(--color-dark);
+  border-radius: 20px;
+  border-width: 2px;
+  overflow: hidden;
+  transition: 0.3s;
 }
 
 .proj-img-container {
