@@ -368,7 +368,7 @@ blockquote {
 .about-section3 {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 4rem;
     padding: 5rem 8rem;
 }
