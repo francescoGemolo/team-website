@@ -269,13 +269,13 @@ blockquote {
     transform: translateY(-0.125rem);
 }
 
+/* About, by Daniele */
 .about-main-container {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-/* About, by Daniele */
 .about-section1 {
     width: 100%;
     display: flex;
@@ -347,7 +347,12 @@ blockquote {
     padding: 1rem 0;
 }
 
-.about-section2-content ol li h2 {
+.about-section2-content ol li+li {
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.about-section2-content ol li strong {
+    display: block;
     font-size: var(--information-header);
     font-weight: 800;
     color: var(--color-white);
@@ -358,14 +363,6 @@ blockquote {
     font-weight: 400;
     letter-spacing: 0.05em;
     color: var(--color-grey);
-}
-
-.about-section2-content ol hr {
-    width: 1px;
-    height: 3rem;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.15);
-    align-self: center;
 }
 
 .about-section3 {
