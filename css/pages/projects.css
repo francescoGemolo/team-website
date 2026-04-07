@@ -99,4 +99,16 @@
   .proj-card {
     width: 100%;
   }
+
+  .proj-hero-subtitle {
+    font-size: 20px;
+  }
+
+  .proj-hero-title {
+    font-size: 40px;
+  }
+
+  .proj-hero-desc {
+    font-size: 14px;
+  }
 }
