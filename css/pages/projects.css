@@ -40,15 +40,6 @@
 }
 
 .proj-card {
-  /*  flex: 1 1 calc(50% - 24px);
-  max-width: 830px;
-  max-height: 669px;
-  font-family: var(--font-roboto);
-  border: solid var(--color-dark);
-  border-radius: 20px;
-  border-width: 2px;
-  overflow: hidden; */
-
   width: 45%;
   font-family: var(--font-roboto);
   border: solid var(--color-dark);
@@ -58,13 +49,8 @@
 }
 
 .proj-img-container {
-  /* width: 100%;
-  height: 60%; */
   aspect-ratio: 5/3;
   overflow: hidden;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 
 .proj-img {
@@ -102,8 +88,6 @@
 
 @media screen and (max-width: 769px) {
   .proj-card {
-    /* flex: 1 1 100%;
-    max-width: 100%; */
     width: 100%;
   }
 }
