@@ -1,8 +1,8 @@
 .projects-hero {
   background: var(--color-dark);
   font-family: var(--font-roboto);
-  min-height: 40vh;
-  padding-top: 4rem;
+  min-height: 50vh;
+  padding-top: 5rem;
   padding-left: 8rem;
 }
 
