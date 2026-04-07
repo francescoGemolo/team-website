@@ -1,8 +1,10 @@
 .projects-hero {
+  display: flex;
+  align-items: center;
   background: var(--color-dark);
   font-family: var(--font-roboto);
   min-height: 50vh;
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
   padding-left: 8rem;
 }
 
@@ -85,6 +87,12 @@
   color: var(--color-dark);
   font-size: 16px;
   font-weight: normal;
+}
+
+@media screen and (max-width: 1024px) {
+  .text-wrapper {
+    max-width: 80%;
+  }
 }
 
 @media screen and (max-width: 769px) {
