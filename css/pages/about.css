@@ -92,6 +92,7 @@
 .about-section3{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 2rem;
     gap: 2.5rem;
     margin-bottom: 1.5rem;
@@ -194,4 +195,52 @@
     .about-section1-info{
         gap: 0.5rem;
     }
+
+    .about-section2-content{
+        width: 100%;
+    }
+
+    .about-section2-content ol{
+        justify-content: space-between;
+    }
+
+    .about-section2-content ol li h2{
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+
+    .about-section2-content ol li span{
+        font-size: 0.9rem;
+    }
+
+    .about-section3{
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .about-section3 div{
+        width: 100%;
+    }
+
+    .about-section3 .about-skills ol{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-section4{
+        padding: 1.8rem;
+    }
+
+    .about-section4 p{
+        margin: 1rem 0;
+    }
+
+    .about-section4 p:first-of-type{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+
 }
