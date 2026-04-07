@@ -275,9 +275,22 @@ blockquote {
   transform: translateY(-0.125rem);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 890px) {
+  .cta-section {
+    flex-direction: column;
+    gap: 30px;
+    padding: 2rem;
+  }
+
   .cta-text {
-    max-width: 60%;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .cta-btn {
+    text-align: center;
+    white-space: nowrap;
+    font-size: 14px;
   }
 }
 
