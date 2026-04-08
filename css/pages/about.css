@@ -194,6 +194,7 @@
 
     .about-section1-content{
         width: 90%;
+        padding: 1rem;
         flex-direction: column;
         text-align: center;
         gap: 1.5rem;

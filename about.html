@@ -43,11 +43,21 @@
     <header>
         <nav class="nav-header-container">
             <a class="header-nav-home" href="/index.html">Alex Mercer</a>
-            <ul class="header-nav-link">
-                <li><a href="/projects.html">Projects</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
+
+            <div>
+                <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+                <label for="menu-toggle" class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </label>
+
+                <ul class="header-nav-link">
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a class="current-page" href="/about.html">About</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
