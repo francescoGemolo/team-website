@@ -302,16 +302,27 @@ blockquote {
     }
 
     .tools-wrapper {
-        padding: 3rem 3rem;
+        padding: 3rem;
     }
 
-    .cta-section {
-        margin: 3rem 3rem;
-        padding: 2rem 3rem;
+    .card {
+        flex: 0 1 calc(50% - 2rem);
+        min-width: unset;
     }
 
     .banner-section {
         padding: 4rem 3rem;
+        min-height: unset;
+    }
+
+    .banner-quote {
+        font-size: 1.875rem;
+    }
+
+    .cta-section {
+        margin: 3rem;
+        padding: 2rem 3rem;
+        min-height: 10vh;
     }
 }
 
@@ -326,8 +337,8 @@ blockquote {
 
     .hero-copy,
     .hero-visual {
-        display: block;
         width: 100%;
+        display: block;
     }
 
     .hero-title {
@@ -351,46 +362,17 @@ blockquote {
     }
 
     .card {
-        flex: 1 1 100%;
+        flex: 0 1 100%;
     }
-
-    .card-content h3 {
-        font-size: 1.1rem;
-    }
-
-    .card-content p {
-        font-size: 0.9rem;
-    }
-
-    .card-labels li {
-        font-size: 0.8rem;
-    }
-
-    .card-time p {
-        font-size: 0.9rem;
-    }
-
-    .card-time span {
-        font-size: 0.8rem;
-    }
-
-    .card-btn {
-        font-size: 0.85rem;
-    }
-
-    .tools-cta {
-        font-size: 0.875rem;
-    }
-
 
     .banner-section {
         padding: 1.5rem 1.25rem;
+        margin-bottom: 2rem;
         min-height: unset;
     }
 
     .banner-quote {
         font-size: 1.125rem;
-        margin-bottom: 0.5rem;
     }
 
     .quote-author {
