@@ -115,7 +115,7 @@ This approach allowed every developer to implement the **responsive design** of 
 
 ## 👥 Team
 
-Project developed as a team as part of a Web Design course/project.
+Project developed as a team as part of a Frontend Development Course.
 
 | Name | Role | GitHub |
 |---|---|---|
