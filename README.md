@@ -60,12 +60,6 @@ team-website/
 | **Git** | Version control |
 | **GitHub** | Repository hosting and pull request management |
 
-Design tools & visual references:
-- **Figma** — prototyping and design
-- **Dribbble** — visual inspiration
-- **shadcn/ui** — UI component reference
-- **Claude AI** — development support
-
 ---
 
 ## 🌿 Git Workflow
