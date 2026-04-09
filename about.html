@@ -14,52 +14,45 @@
 
     <link rel="icon" href="assets/logos/logo.svg" type="image/svg+xml">
 
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
-    <!-- Icons -->
     <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css">
 
-    <!-- Reset + Vars -->
     <link rel="stylesheet" href="css/base.css">
 
-    <!-- Components -->
     <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/card.css">
     <link rel="stylesheet" href="css/components/footer.css">
 
-    <!-- Page -->
     <link rel="stylesheet" href="css/pages/about.css">
-
-    <!-- General Style -->
-    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="about-body-container">
 
-    <header>
-        <nav class="nav-header-container">
-            <a class="header-nav-home" href="/index.html">Alex Mercer</a>
+    <header class="header">
+        <a href="index.html" class="header-logo">
+            <img src="assets/logos/logo.svg" alt="Alex Mercer's Logo">
+            <span>Alex Mercer</span>
+        </a>
+        <div>
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
 
-            <div>
-                <input type="checkbox" id="menu-toggle" class="menu-checkbox">
-                <label for="menu-toggle" class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </label>
-
-                <ul class="header-nav-link">
-                    <li><a href="/projects.html">Projects</a></li>
-                    <li><a class="current-page" href="/about.html">About</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
+            <nav class="nav">
+                <ul class="nav-items">
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
 
     <main class="about-main-container">
@@ -159,7 +152,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>Copyright © Alex Mercer</p>
     </footer>
 </body>
