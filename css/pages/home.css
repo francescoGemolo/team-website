@@ -289,3 +289,66 @@ blockquote {
     color: var(--color-accent);
     transform: translateY(-0.125rem);
 }
+
+@media (max-width: 1024px) {
+
+    .hero-section {
+        padding: 4rem 3rem;
+    }
+
+    .hero-copy,
+    .hero-visual {
+        width: 48%;
+    }
+
+    .tools-wrapper {
+        padding: 3rem 3rem;
+    }
+
+    .cta-section {
+        margin: 3rem 3rem;
+        padding: 2rem 3rem;
+    }
+
+    .banner-section {
+        padding: 4rem 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        padding: 3rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .hero-copy,
+    .hero-visual {
+        display: block;
+        width: 100%;
+    }
+
+    .tools-wrapper {
+        padding: 3rem 1.5rem;
+    }
+
+    .card {
+        flex: 1 1 100%;
+    }
+
+    .banner-section {
+        padding: 3rem 1.5rem;
+        min-height: auto;
+    }
+
+    .cta-section {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+        margin: 2rem 1.5rem;
+        padding: 2rem 1.5rem;
+        border-radius: 0.75rem;
+    }
+}
