@@ -43,7 +43,6 @@
   color: var(--color-accent);
 }
 
-/* Responsive */
 .menu-checkbox {
   display: none;
 }
@@ -63,7 +62,7 @@
   transition: 0.3s;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header {
     padding: 1rem 1.25rem;
     flex-wrap: wrap;

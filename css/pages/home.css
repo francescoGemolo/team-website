@@ -318,7 +318,7 @@ blockquote {
 @media (max-width: 768px) {
 
     .hero-section {
-        padding: 3rem 1.5rem;
+        padding: 1.5rem 1.5rem 3rem;
         display: flex;
         flex-direction: column;
         gap: 2rem;
@@ -330,25 +330,93 @@ blockquote {
         width: 100%;
     }
 
+    .hero-title {
+        font-size: 1.75rem;
+    }
+
+    .hero-sub {
+        font-size: 0.95rem;
+    }
+
+    .hero-btn {
+        font-size: 0.875rem;
+    }
+
     .tools-wrapper {
         padding: 3rem 1.5rem;
+    }
+
+    .tools-title {
+        font-size: 1.5rem;
     }
 
     .card {
         flex: 1 1 100%;
     }
 
+    .card-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .card-content p {
+        font-size: 0.9rem;
+    }
+
+    .card-labels li {
+        font-size: 0.8rem;
+    }
+
+    .card-time p {
+        font-size: 0.9rem;
+    }
+
+    .card-time span {
+        font-size: 0.8rem;
+    }
+
+    .card-btn {
+        font-size: 0.85rem;
+    }
+
+    .tools-cta {
+        font-size: 0.875rem;
+    }
+
+
     .banner-section {
-        padding: 3rem 1.5rem;
-        min-height: auto;
+        padding: 1.5rem 1.25rem;
+        min-height: unset;
+    }
+
+    .banner-quote {
+        font-size: 1.125rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .quote-author {
+        font-size: 0.875rem;
     }
 
     .cta-section {
         flex-direction: column;
         align-items: flex-start;
         gap: 1.5rem;
-        margin: 2rem 1.5rem;
-        padding: 2rem 1.5rem;
-        border-radius: 0.75rem;
+        margin: 1.25rem 1rem;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        min-height: unset;
+    }
+
+    .cta-text h4 {
+        font-size: 1.125rem;
+    }
+
+    .cta-text p {
+        font-size: 0.875rem;
+    }
+
+    .cta-btn {
+        font-size: 0.875rem;
+        padding: 0.4rem 1.25rem;
     }
 }
