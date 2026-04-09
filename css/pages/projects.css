@@ -40,7 +40,7 @@
 }
 
 .proj-card {
-  /*  flex: 1 1 calc(50% - 24px);
+  /*   flex: 1 1 calc(50% - 24px);
   max-width: 830px;
   max-height: 669px;
   font-family: var(--font-roboto);
@@ -96,8 +96,6 @@
 
 @media screen and (max-width: 769px) {
   .proj-card {
-    /* flex: 1 1 100%;
-    max-width: 100%; */
     width: 100%;
   }
 }
