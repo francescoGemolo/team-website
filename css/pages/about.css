@@ -1,0 +1,138 @@
+/* About, by Daniele */
+.about-main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-section1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    padding: 5rem 8rem;
+}
+
+.about-section1-content {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.about-section1-content img {
+    border-radius: 100%;
+}
+
+.section1-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section1-info span {
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: var(--color-accent);
+}
+
+.section1-info h1 {
+    font-size: var(--hero-main);
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.section1-info p {
+    font-size: var(--hero-secondary);
+    font-weight: 300;
+    line-height: 1.6;
+    color: var(--color-grey);
+}
+
+.about-section2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.about-section2-content {
+    width: 70%;
+    padding: 2rem 0;
+}
+
+.about-section2-content ol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section2-content ol li {
+    flex: 1;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.about-section2-content ol li+li {
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.about-section2-content ol li strong {
+    display: block;
+    font-size: var(--information-header);
+    font-weight: 800;
+    color: var(--color-white);
+}
+
+.about-section2-content ol li span {
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: var(--color-grey);
+}
+
+.about-section3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 5rem 8rem;
+}
+
+.about-section3 .about-story,
+.about-section3 .about-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+}
+
+.about-section3 h3 {
+    font-size: var(--information-header);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.about-section3 .about-story p {
+    font-size: var(--hero-secondary);
+    line-height: 1.7;
+    color: var(--color-dark);
+}
+
+.about-section3 .about-skills ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.about-section3 .about-skills li {
+    font-family: var(--font-roboto);
+    font-size: 0.9rem;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    padding: 0.3rem 1.25rem;
+    border-radius: 999px;
+}
