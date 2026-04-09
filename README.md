@@ -119,6 +119,6 @@ Project developed as a team as part of a Web Design course/project.
 
 | Name | Role | GitHub |
 |---|---|---|
-| Francesco | Home, Contact, Responsive & Git/GitHub versioning | [@alexusername](https://github.com/francescoGemolo) |
+| Francesco | Home, Contact, Responsive & Git/GitHub versioning | [@francescoGemolo](https://github.com/francescoGemolo) |
 | Daniele | Header, Footer, About & Responsive | [@DanieleLG90](https://github.com/DanieleLG90) |
 | Paula | Figma Design, Projects & Responsive | [@PaulaBCdev](https://github.com/PaulaBCdev) |
