@@ -1,4 +1,4 @@
-# 🌐 Team Website — Alex Web Designer
+# 🌐 Team Website
 
 [![Live Preview](https://img.shields.io/badge/Live%20Preview-Visit%20Site-4f46e5?style=for-the-badge&logo=globe)](https://your-preview-link-here.com)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
@@ -119,6 +119,6 @@ Project developed as a team as part of a Web Design course/project.
 
 | Name | Role | GitHub |
 |---|---|---|
-| Alex | Home, Contact, Responsive & Git/GitHub versioning | [@alexusername](https://github.com/alexusername) |
+| Francesco | Home, Contact, Responsive & Git/GitHub versioning | [@alexusername](https://github.com/francescoGemolo) |
 | Daniele | Header, Footer, About & Responsive | [@DanieleLG90](https://github.com/DanieleLG90) |
 | Paula | Figma Design, Projects & Responsive | [@PaulaBCdev](https://github.com/PaulaBCdev) |
