@@ -68,7 +68,12 @@
 }
 
 .tools-wrapper {
-    padding: 5rem 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 8rem;
+    gap: 1rem;
 }
 
 .tools-title {
@@ -193,8 +198,24 @@
 
 .card-btn:hover {
     color: var(--color-accent);
-    background-color: var(--color-white);
+    background-color: transparent;
     transform: translateY(-0.125rem);
+}
+
+.tools-cta {
+    width: fit-content;
+    text-align: center;
+    color: var(--color-accent);
+    margin-top: 2rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    transition: 0.15s ease-in-out;
+}
+
+.tools-cta:hover {
+    transform: translateY(-0.125rem);
+    background-color: var(--color-accent);
+    color: var(--color-white);
 }
 
 .banner-section {
