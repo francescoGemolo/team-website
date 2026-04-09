@@ -215,3 +215,91 @@ blockquote {
     color: var(--color-accent);
     transform: translateY(-0.125rem);
 }
+
+@media (max-width: 1024px) {
+
+    .about-section1-content {
+        padding: 2rem 3rem;
+    }
+
+    .about-section2-content {
+        padding: 0 3rem;
+    }
+
+    .about-section3 {
+        padding: 3rem;
+    }
+
+    .banner-section {
+        padding: 4rem 3rem;
+    }
+
+    .cta-section {
+        margin: 3rem 3rem;
+        padding: 2rem 3rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .about-section1-content {
+        width: 90%;
+        padding: 1rem;
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .about-section1-info {
+        gap: 0.5rem;
+    }
+
+    .about-section2-content {
+        width: 100%;
+    }
+
+    .about-section2-content ol {
+        justify-content: space-between;
+    }
+
+    .about-section2-content ol li h2 {
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+
+    .about-section2-content ol li span {
+        font-size: 0.9rem;
+    }
+
+    .about-section3 {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 1.5rem;
+    }
+
+    .about-section3 div {
+        width: 100%;
+    }
+
+    .about-section3 .about-skills ol {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-section {
+        padding: 3rem 1.5rem;
+        min-height: auto;
+    }
+
+    .cta-section {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+        margin: 2rem 1.5rem;
+        padding: 2rem 1.5rem;
+        border-radius: 0.75rem;
+    }
+
+}
