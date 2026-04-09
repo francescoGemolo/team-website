@@ -1,5 +1,4 @@
 :root {
-    /* Colors */
     --color-white: #F9FAF8;
     --color-dark: #1F2937;
     --color-grey: #E5E7EB;
@@ -10,19 +9,16 @@
     --color-success: #52c41a;
     --color-warning: #faad14;
 
-    /* Typography */
     --logo-size: 1.5rem;
     --hero-main: 3rem;
     --hero-secondary: 1.125rem;
     --information-header: 2.25rem;
     --quote-text: 2.25rem;
 
-    /* Fonts */
     --font-roboto: 'Roboto', system-ui, sans-serif;
     --font-mono: 'Roboto Mono', Consolas, monospace;
 }
 
-/* Reset */
 *, *::before, *::after {
     margin: 0;
     padding: 0;
