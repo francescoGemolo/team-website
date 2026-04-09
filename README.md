@@ -33,19 +33,6 @@ Personal website of a freelance Web Designer, built with pure HTML5 and CSS3. Th
 ```
 team-website/
 ├── assets/
-│   ├── logos/
-│   │   ├── logo.svg
-│   │   ├── logo_inverted.svg
-│   │   ├── claude-ai-icon.svg
-│   │   ├── dribbble.svg
-│   │   ├── figma.svg
-│   │   └── shadcn-ui.svg
-│   ├── projects-img/
-│   │   ├── project01.png
-│   │   ├── project02.png
-│   │   ├── project03.png
-│   │   └── project04.png
-│   └── profile-picture-Alex.png
 ├── css/
 │   ├── base.css               ← global variables & reset
 │   ├── components/
@@ -130,8 +117,8 @@ This approach allowed every developer to implement the **responsive design** of 
 
 Project developed as a team as part of a Web Design course/project.
 
-> Want to add the team members? Update this section with each member's GitHub profile.
-
----
-
-*Built with HTML5, CSS3 and plenty of coffee ☕*
+| Name | Role | GitHub |
+|---|---|---|
+| Alex | Home, Contact, Responsive & Git/GitHub versioning | [@alexusername](https://github.com/alexusername) |
+| Daniele | Header, Footer, About & Responsive | [@DanieleLG90](https://github.com/DanieleLG90) |
+| Paula | Figma Design, Projects & Responsive | [@PaulaBCdev](https://github.com/PaulaBCdev) |
