@@ -16,13 +16,13 @@
 
 .proj-hero-subtitle {
   color: var(--color-accent);
-  font-weight: bolder;
+    font-weight: 700;
   font-size: 1.5rem;
 }
 
 .proj-hero-title {
   color: var(--color-white);
-  font-weight: bolder;
+    font-weight: 700;
   font-size: 3rem;
 }
 
@@ -78,14 +78,14 @@
 .proj-theme,
 .proj-link {
   color: var(--color-accent);
-  font-weight: bolder;
+    font-weight: 700;
   font-size: 0.75rem;
 }
 
 .proj-name {
   color: var(--color-dark);
   font-size: var(--logo-size);
-  font-weight: bolder;
+    font-weight: 700;
 }
 
 .proj-desc {

@@ -3,8 +3,12 @@
     --color-dark: #1F2937;
     --color-darkest: #0d121a;
     --color-grey: #E5E7EB;
+    --color-grey-dark: #888;
+    --color-white-semi: rgba(245, 245, 245, 0.1);
 
     --color-accent: #3882F6;
+    --color-accent-hover: color-mix(in srgb, var(--color-accent) 85%, #000);
+    --color-accent-semi: rgba(56, 130, 246, 0.3);
 
     --color-error: #ff4d4f;
     --color-success: #52c41a;

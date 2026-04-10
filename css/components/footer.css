@@ -12,7 +12,7 @@
     gap: 1.7rem;
     margin-bottom: 1rem;
     padding: 1rem;
-    border-bottom: 1px solid #f5f5f520;
+    border-bottom: 1px solid var(--color-white-semi);
 }
 
 footer .nav-footer a {

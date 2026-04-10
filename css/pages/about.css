@@ -40,13 +40,13 @@
 
 .about-section1-info span {
     font-size: 1.5rem;
-    font-weight: bolder;
+    font-weight: 700;
     color: var(--color-accent);
 }
 
 .about-section1-info h1 {
     font-size: 3rem;
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 .about-section1-info p {
@@ -108,7 +108,7 @@
 
 .about-section3 h3 {
     font-size: 2.5rem;
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 .about-story p{
@@ -201,7 +201,7 @@
     color: var(--color-accent);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
     .about-section1-content {
         width: 90%;

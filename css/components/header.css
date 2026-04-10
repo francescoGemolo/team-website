@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-dark);
-  border-bottom: 1px solid #f5f5f510;
+  border-bottom: 1px solid var(--color-white-semi);
   padding: 1.125rem 8rem;
 }
 
@@ -38,9 +38,8 @@
   transition: 0.15s ease-in-out;
 }
 
-.nav-items a:hover,
 .nav-items a:hover {
-  background-color: #304b7750;
+  background-color: var(--color-accent-semi);
   color: var(--color-accent);
 }
 
