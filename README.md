@@ -56,15 +56,9 @@ team-website/
 | Technology | Usage |
 |---|---|
 | **HTML5** | Semantic page markup |
-| **CSS3** | Styling, layout (Flexbox/Grid) and responsive design |
+| **CSS3** | Styling, layout (Flexbox) and responsive design |
 | **Git** | Version control |
 | **GitHub** | Repository hosting and pull request management |
-
-Design tools & visual references:
-- **Figma** — prototyping and design
-- **Dribbble** — visual inspiration
-- **shadcn/ui** — UI component reference
-- **Claude AI** — development support
 
 ---
 
