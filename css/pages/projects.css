@@ -1,0 +1,154 @@
+.projects-hero {
+  display: flex;
+  align-items: center;
+  background: var(--color-dark);
+  font-family: var(--font-roboto);
+  min-height: 50vh;
+  padding-left: 8rem;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.125rem;
+}
+
+.proj-hero-subtitle {
+  color: var(--color-accent);
+    font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.proj-hero-title {
+  color: var(--color-white);
+    font-weight: 700;
+  font-size: 3rem;
+}
+
+.proj-hero-desc {
+  color: var(--color-white);
+  font-weight: normal;
+  font-size: 1.125rem;
+}
+
+.projects-section {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  padding: 5rem;
+  gap: 3.75rem;
+}
+
+.proj-card {
+  width: 45%;
+  font-family: var(--font-roboto);
+  border: 1px solid var(--color-dark);
+  border-radius: 1.25rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.proj-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 5/3;
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+
+.proj-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.proj-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+  padding: 1.875rem 3.75rem;
+  flex: 1;
+}
+
+.proj-theme,
+.proj-link {
+  color: var(--color-accent);
+    font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.proj-name {
+  color: var(--color-dark);
+  font-size: var(--logo-size);
+    font-weight: 700;
+}
+
+.proj-desc {
+  color: var(--color-dark);
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+@media (max-width: 1024px) {
+
+  .projects-hero {
+    padding-left: 4rem;
+  }
+
+  .text-wrapper {
+    max-width: 80%;
+  }
+
+  .projects-section {
+    gap: 2.5rem;
+  }
+
+  .proj-card {
+    width: 100%;
+  }
+
+  .proj-info-container {
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .projects-hero {
+    padding-left: 2rem;
+  }
+
+  .projects-section {
+    padding: 2.5rem 1.5rem;
+    gap: 2rem;
+  }
+
+  .proj-card {
+    width: 100%;
+  }
+
+  .proj-img-container {
+    aspect-ratio: 4/3;
+  }
+
+  .proj-info-container {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .proj-hero-subtitle {
+    font-size: 1.25rem;
+  }
+
+  .proj-hero-title {
+    font-size: 2.5rem;
+  }
+
+  .proj-hero-desc {
+    font-size: 0.875rem;
+  }
+}

@@ -1,47 +1,150 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description"
-        content="We provide guidance in areas such as leadership development, process refinement, and growth planning - helping you stay resilient in an evolving marketplace.">
-    <meta name="author" content="Paula, Daniele and Francesco">
+  <meta name="description"
+    content="We provide guidance in areas such as leadership development, process refinement, and growth planning - helping you stay resilient in an evolving marketplace.">
+  <meta name="author" content="Paula, Daniele and Francesco">
 
-    <title>Projects</title>
+  <meta property="og:title" content="Alex Mercer - Projects">
+  <meta property="og:description"
+    content="We provide guidance in areas such as leadership development, process refinement, and growth planning.">
+  <meta property="og:type" content="website">
 
-    <link rel="icon" href="assets/logos/logo.svg" type="image/svg+xml">
+  <title>Alex Mercer - Projects</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+  <link rel="icon" href="assets/logos/logo.svg" type="image/svg+xml">
 
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 
-    <!-- Reset + Vars -->
-    <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css">
 
-    <!-- Components -->
-    <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/card.css">
-    <link rel="stylesheet" href="css/components/footer.css">
+  <link rel="stylesheet" href="css/base.css">
 
-    <!-- Page -->
-    <link rel="stylesheet" href="css/pages/projects.css">
+  <link rel="stylesheet" href="css/components/header.css">
+  <link rel="stylesheet" href="css/components/footer.css">
 
-    <!-- General Style -->
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages/projects.css">
 </head>
 
 <body>
+  <header class="header">
+    <a href="index.html" class="header-logo">
+      <img src="assets/logos/logo.svg" alt="Alex Mercer's Logo">
+      <span>Alex Mercer</span>
+    </a>
+    <div>
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+      <label for="menu-toggle" class="hamburger" aria-label="Toggle navigations">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
 
+      <nav class="nav">
+        <ul class="nav-items">
+          <li><a class="current-page" href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="projects-hero">
+      <div class="text-wrapper">
+        <h2 class="proj-hero-subtitle">PORTFOLIO</h2>
+        <h1 class="proj-hero-title">Selected work.</h1>
+        <p class="proj-hero-desc">
+          A few projects that show how I approach design, always with the
+          client's goals in mind.
+        </p>
+      </div>
+    </section>
+
+    <section class="projects-section">
+
+      <article class="proj-card">
+        <div class="proj-img-container">
+          <img src="assets/projects-img/project01.png" alt="Amby-project" class="proj-img" />
+        </div>
+        <div class="proj-info-container">
+          <h4 class="proj-theme">SAAS · HRTECH</h4>
+          <h3 class="proj-name">Amby</h3>
+          <p class="proj-desc">
+            Full website redesign for a B2B HR software startup looking to
+            increase demo sign-ups.
+          </p>
+          <a href="#" class="proj-link">View case study</a>
+        </div>
+      </article>
+
+      <article class="proj-card">
+        <div class="proj-img-container">
+          <img src="assets/projects-img/project02.png" alt="fintech-project" class="proj-img" />
+        </div>
+        <div class="proj-info-container">
+          <h4 class="proj-theme">FINTECH · EUROPE</h4>
+          <h3 class="proj-name">Hub Fintech Europe</h3>
+          <p class="proj-desc">
+            Web redesign for a fintech startup, focusing on trust signals and
+            conversion.
+          </p>
+          <a href="#" class="proj-link">View case study</a>
+        </div>
+      </article>
+
+      <article class="proj-card">
+        <div class="proj-img-container">
+          <img src="assets/projects-img/project03.png" alt="Kenslow-project" class="proj-img" />
+        </div>
+        <div class="proj-info-container">
+          <h4 class="proj-theme">FINANCE · CONSULTING</h4>
+          <h3 class="proj-name">Kenslow</h3>
+          <p class="proj-desc">
+            Corporate website for an investment advisory firm needing gravitas
+            and clarity.
+          </p>
+          <a href="#" class="proj-link">View case study</a>
+        </div>
+      </article>
+
+      <article class="proj-card">
+        <div class="proj-img-container">
+          <img src="assets/projects-img/project04.png" alt="eucalyptus-project" class="proj-img" />
+        </div>
+        <div class="proj-info-container">
+          <h4 class="proj-theme">HEALTHCARE · INSTITUTIONAL</h4>
+          <h3 class="proj-name">Eucalyptus</h3>
+          <p class="proj-desc">
+            Institutional web presence for a private clinic, designed to
+            convey care and professionalism.
+          </p>
+          <a href="#" class="proj-link">View case study</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <nav>
+      <ul class="nav-footer">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <p>Copyright © Alex Mercer</p>
+  </footer>
 </body>
-
 
 </html>
