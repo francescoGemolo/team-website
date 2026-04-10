@@ -203,15 +203,6 @@
     transform: translateY(-0.125rem);
 }
 
-.card-ghost {
-    flex: 0 1 calc(25% - 1rem);
-    min-width: unset;
-    visibility: hidden;
-    height: 0;
-    padding: 0;
-    margin: 0;
-}
-
 .tools-cta {
     width: fit-content;
     text-align: center;
