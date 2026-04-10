@@ -1,6 +1,6 @@
 # 🌐 Team Website
 
-[![Live Preview](https://img.shields.io/badge/Live%20Preview-Visit%20Site-4f46e5?style=for-the-badge&logo=globe)](https://your-preview-link-here.com)
+[![Live Preview](https://francescogemolo.github.io/team-website/)](https://francescogemolo.github.io/team-website/)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
