@@ -38,8 +38,13 @@
   transition: 0.15s ease-in-out;
 }
 
+.nav-items a:hover,
 .nav-items a:hover {
   background-color: #304b7750;
+  color: var(--color-accent);
+}
+
+.nav-items .current-page{
   color: var(--color-accent);
 }
 

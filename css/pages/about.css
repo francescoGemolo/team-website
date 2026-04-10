@@ -1,13 +1,14 @@
 .about-body-container {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    box-sizing: border-box;
 }
 
 .about-main-container {
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    overflow-x: hidden;
 }
 
 .about-section1 {
@@ -20,13 +21,14 @@
 
 .about-section1-content {
     width: 70%;
-    padding: 2rem;
+    min-height: 50vh;
     display: flex;
     align-items: center;
     gap: 2.5rem;
 }
 
 .about-section1-content img {
+    width: 250px;
     border-radius: 100%;
 }
 
@@ -37,18 +39,19 @@
 }
 
 .about-section1-info span {
-    font-size: 0.9rem;
-    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: bolder;
     color: var(--color-accent);
 }
 
 .about-section1-info h1 {
-    font-weight: 600;
+    font-size: 3rem;
+    font-weight: bolder;
 }
 
 .about-section1-info p {
-    font-size: 1.2rem;
-    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.6;
 }
 
 .about-section2 {
@@ -89,21 +92,27 @@
 }
 
 .about-section3 {
+    min-height: 30vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     padding: 2rem;
-    gap: 2.5rem;
+    gap: 5rem;
     margin-bottom: 1.5rem;
 }
 
 .about-section3 div {
-    width: 25%;
+    width: 30%;
+    min-height: 60%;
 }
 
 .about-section3 h3 {
-    font-size: 1.8rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.about-story p{
+    font-size: 1.2rem;
 }
 
 .about-section3 .about-story,
@@ -114,15 +123,17 @@
 }
 
 .about-section3 .about-skills ol {
-    width: 65%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
-    gap: 1.2rem;
+    row-gap: 2rem;
+    column-gap: 1.2rem;
 }
 
 .about-section3 .about-skills li {
     background-color: var(--color-dark);
     color: var(--color-white);
+    font-size: 1.2rem;
     padding: 0.2rem 1.5rem;
     border-radius: 50px;
 }
@@ -194,14 +205,31 @@
 
     .about-section1-content {
         width: 90%;
-        padding: 1rem;
+        padding: 0.5rem;
         flex-direction: column;
-        text-align: center;
+        text-align: left;
         gap: 1.5rem;
     }
 
     .about-section1-info {
         gap: 0.5rem;
+    }
+    .about-section1-content img{
+        width: 150px;
+    }
+
+    .about-section1-info span{
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .about-section1-info h1{
+        font-size: 2.5rem;
+    }
+
+    .about-section1-info p{
+        font-size: 1.1rem;
     }
 
     .about-section2-content {
@@ -225,16 +253,28 @@
         flex-direction: column;
         text-align: center;
         padding: 1rem;
+        gap: 2rem;
     }
 
     .about-section3 div {
         width: 100%;
     }
 
+    .about-section3 h3{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
     .about-section3 .about-skills ol {
         width: 100%;
         align-items: center;
         justify-content: center;
+        row-gap: 0.8rem;
+        column-gap: 0.8rem;
+    }
+
+    .about-section3 .about-skills li {
+        padding: 0.2rem 1rem;
     }
 
     .about-section4 {
@@ -261,4 +301,41 @@
     .about-section5-content a {
         padding: 0.5rem 1rem;
     }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .about-section1-content{
+        width: 90%;
+    }
+
+    .about-section1-content img{
+        width: 350px;
+        
+    }
+
+    .about-section2-content {
+        width: 100%;
+    }
+
+    .about-section3{
+        gap: 1rem;
+    }
+
+    .about-section3 div{
+        width: 50%;
+    }
+
+    .about-section3 .about-skills ol{
+        width: 100%;
+    }
+
+    .about-section4 p:first-of-type{
+        width: 90%;
+    }
+
+    .about-section5-content{
+        width: 85%;
+    }
+
 }
