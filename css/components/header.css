@@ -67,10 +67,16 @@
   transition: 0.3s;
 }
 
+@media (max-width: 1024px) {
+  .header {
+    padding: 1.125rem 3rem;
+  }
+}
+
 @media (max-width: 768px) {
   .header {
     padding: 1rem 1.25rem;
-    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .hamburger {
@@ -109,5 +115,10 @@
 
   .menu-checkbox:checked~.hamburger .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-items a {
+    padding: 0.5rem 0.875rem;
+    font-size: var(--hero-secondary);
   }
 }
