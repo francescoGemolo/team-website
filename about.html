@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -10,37 +9,163 @@
         content="We provide guidance in areas such as leadership development, process refinement, and growth planning - helping you stay resilient in an evolving marketplace.">
     <meta name="author" content="Paula, Daniele and Francesco">
 
-    <title>About</title>
+    <meta property="og:title" content="Alex Mercer - About">
+    <meta property="og:description"
+        content="We provide guidance in areas such as leadership development, process refinement, and growth planning.">
+    <meta property="og:type" content="website">
+
+    <title>Alex Mercer - About</title>
 
     <link rel="icon" href="assets/logos/logo.svg" type="image/svg+xml">
 
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
-    <!-- Icons -->
     <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css">
 
-    <!-- Reset + Vars -->
     <link rel="stylesheet" href="css/base.css">
 
-    <!-- Components -->
     <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/card.css">
     <link rel="stylesheet" href="css/components/footer.css">
 
-    <!-- Page -->
     <link rel="stylesheet" href="css/pages/about.css">
-
-    <!-- General Style -->
-    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+    <header class="header">
+        <a href="index.html" class="header-logo">
+            <img src="assets/logos/logo.svg" alt="Alex Mercer's Logo">
+            <span>Alex Mercer</span>
+        </a>
+        <div>
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="hamburger" aria-label="Toggle navigations">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+
+            <nav class="nav">
+                <ul class="nav-items">
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a class="current-page" href="about.html" aria-current="page">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="about-section1">
+            <div class="about-section1-content">
+                <figure>
+                    <img src="assets/img/Avatar.png" alt="Portrait of Alex Mercer">
+                </figure>
+
+                <div class="about-section1-info">
+                    <span>ABOUT ME</span>
+                    <h1>Alex Mercer</h1>
+                    <p>
+                        Web Designer specialising in corporate websites for B2B companies and startups. <br>
+                        6 years turning briefs into sites that actually convert.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section2">
+            <div class="about-section2-content">
+                <ol>
+                    <li>
+                        <h2>6</h2>
+                        <span>YEARS EXP.</span>
+                    </li>
+                    <hr>
+                    <li>
+                        <h2>40+</h2>
+                        <span>PROJECTS</span>
+                    </li>
+                    <hr>
+                    <li>
+                        <h2>18</h2>
+                        <span>CLIENTS</span>
+                    </li>
+                    <hr>
+                    <li>
+                        <h2>100%</h2>
+                        <span>REMOTE</span>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="about-section3">
+            <div class="about-story">
+                <h3>My Story</h3>
+                <p>
+                    I started out in branding — logos, visual identities, print — before realising that the most
+                    interesting design problems were happening on the web.
+                    I retrained, picked up frontend basics, and haven't looked back.
+                </p>
+                <p>
+                    These days I work exclusively on corporate web projects: company sites, product pages, and landing
+                    pages for B2B companies that need to look trustworthy and perform well.
+                    My process is research-heavy and conversion-focused. I don't do decoration for decoration's sake.
+                </p>
+                <p>
+                    When I'm not designing, I'm usually reading about typography, obsessing over spacing, or trying to
+                    convince clients that white space is not wasted space.
+                </p>
+            </div>
+
+            <div class="about-skills">
+                <h3>Tool & Skills</h3>
+                <ol>
+                    <li>Figma</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>GitHub</li>
+                    <li>Web Design</li>
+                    <li>Adobe Illustrator</li>
+                    <li>UX / Wireframing</li>
+                    <li>Branding</li>
+                    <li>CopyWriting</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="about-section4">
+            <p>"Design is not a layer you put on top. It's the structure underneath everything."</p>
+            <p>— something Alex probably says too often</p>
+        </section>
+
+        <section class="about-section5">
+            <div class="about-section5-content">
+                <div>
+                    <h4>Want to work together?</h4>
+                    <p>I'm currently available for new projects.</p>
+                </div>
+                <a href="contact.html">Get in touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <nav>
+            <ul class="nav-footer">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <p>Copyright © Alex Mercer</p>
+    </footer>
 </body>
 
 </html>

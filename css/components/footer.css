@@ -1,0 +1,26 @@
+.footer {
+    width: 100%;
+    background-color: var(--color-dark);
+    text-align: center;
+    color: var(--color-grey);
+    padding: 1.5rem;
+}
+
+.footer .nav-footer {
+    display: flex;
+    justify-content: center;
+    gap: 1.7rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid var(--color-white-semi);
+}
+
+footer .nav-footer a {
+    color: var(--color-grey);
+    transition: 0.15s ease-in-out;
+}
+
+footer .nav-footer a:hover,
+footer .nav-footer a:active {
+    color: var(--color-accent);
+}
