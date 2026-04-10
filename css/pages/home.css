@@ -416,11 +416,11 @@ blockquote {
     }
 
     .hero-title {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     .hero-sub {
-        font-size: 0.875rem;
+        font-size: 1rem;
     }
 
     .hero-btn {
@@ -433,7 +433,7 @@ blockquote {
     }
 
     .tools-title {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
 
     .card {
@@ -445,16 +445,16 @@ blockquote {
     }
 
     .banner-section {
-        padding: 1rem;
+        padding: 2rem 1rem;
         margin-bottom: 1.5rem;
     }
 
     .banner-quote {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .quote-author {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .cta-section {
@@ -463,7 +463,7 @@ blockquote {
     }
 
     .cta-text h4 {
-        font-size: 1rem;
+        font-size: 1.125rem;
     }
 
     .cta-text p {
